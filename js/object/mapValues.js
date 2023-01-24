@@ -1,5 +1,5 @@
-import { deepClone } from './clone';
-import { isObject } from './isObject';
+import { deepClone } from './clone.js';
+import { isObject } from './isObject.js';
 export const mapRecord = (source, map) => {
     return Object.fromEntries(Object.entries(source)
         .map(([key, value]) => [key, map(value, key)]));

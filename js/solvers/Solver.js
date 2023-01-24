@@ -1,4 +1,4 @@
-import { Observable } from '../observables';
+import { Observable } from '../observables.js';
 export const solve = (observable, state, solver) => {
     observable.own(observable);
     const initialValue = observable.value;

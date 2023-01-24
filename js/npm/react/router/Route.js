@@ -1,9 +1,9 @@
 import React from 'react';
-import { Animation } from '../../../Animation';
-import { Observable, ObservableBoolean, ObservableNumber } from '../../../observables';
-import { compareString, location } from '../../../router';
+import { Animation } from '../../../Animation.js';
+import { Observable, ObservableBoolean, ObservableNumber } from '../../../observables.js';
+import { compareString, location } from '../../../router.js';
 import { useEffects, useForceUpdate } from '..';
-import { RouterContext } from './Router';
+import { RouterContext } from './Router.js';
 export const RouteStateContext = React.createContext(null);
 export const Route = ({ path, excludePath, hash, search, exact = false, strict = false, // should consider the last slash? otherwise `/foo/` and `/foo` are considered as a same vlaue. cf express "strict" property
 transitionDuration = 0, children, debug = false, }) => {

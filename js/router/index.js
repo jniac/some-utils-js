@@ -1,2 +1,2 @@
-export * from './location';
-export * from './mask';
+export * from './location.js';
+export * from './mask.js';

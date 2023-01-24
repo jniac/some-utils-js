@@ -1,5 +1,5 @@
 import React from 'react';
-import { location } from '../../../router/location';
+import { location } from '../../../router/location.js';
 const useUpdate = (callback) => {
     // Re-render when pathname has changed
     // https://reactjs.org/docs/hooks-faq.html#is-there-something-like-forceupdate

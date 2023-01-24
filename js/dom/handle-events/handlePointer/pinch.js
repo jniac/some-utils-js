@@ -1,6 +1,6 @@
 import { middleModulo } from 'some-utils/math';
-import { Point } from '../../../geom';
-import { destroyDebugDisplay, updateDebugDisplay } from './pinch-debug';
+import { Point } from '../../../geom.js';
+import { destroyDebugDisplay, updateDebugDisplay } from './pinch-debug.js';
 export const isPinchListening = (options) => {
     return !!(options.onPinch
         ?? options.onPinchStart

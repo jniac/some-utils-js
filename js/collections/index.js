@@ -1,5 +1,5 @@
-export { BidirectionalMap } from './BidirectionalMap';
-export * from './double';
-export * from './lazy';
-export { OrderSet } from './OrderSet';
-export { Register } from './Register';
+export { BidirectionalMap } from './BidirectionalMap.js';
+export * from './double.js';
+export * from './lazy.js';
+export { OrderSet } from './OrderSet.js';
+export { Register } from './Register.js';

@@ -1,11 +1,11 @@
 import React from 'react';
-import { useComplexEffects, safeClassName } from '../..';
+import { useComplexEffects, safeClassName } from '../...js';
 import { Route, RouteStateContext } from '..';
 //   // THE-SCROLL_PROBLEM
 // import { getScrollingParentElement, 
 //   // getScrollingParentElementHeight, 
-//   onFrameOrResize } from './utils'
-// import { manageOverlayScroll } from './manageOverlayScroll'
+//   onFrameOrResize } from './utils.js'
+// import { manageOverlayScroll } from './manageOverlayScroll.js'
 import './DivRoute.css';
 const Div = ({ overlay, overlayBackgroundColor, doNotPreventScrollPositionBecauseIOSIsShit = false, onBackgroundClick, children, ...props }) => {
     const state = React.useContext(RouteStateContext);

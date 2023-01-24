@@ -1,5 +1,5 @@
 import React from 'react';
-import { collectDestroys } from './destroyable';
+import { collectDestroys } from './destroyable.js';
 /**
  * @deprecated `useEffects` should be preferred over this.
  *

@@ -1,4 +1,4 @@
-import { Point } from '../../../geom';
+import { Point } from '../../../geom.js';
 export const isDragListening = (options) => {
     return !!(options.onDragStart
         ?? options.onDragStop

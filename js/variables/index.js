@@ -1,2 +1,2 @@
-export * from './FloatVariable';
-export * from './VectorVariable';
+export * from './FloatVariable.js';
+export * from './VectorVariable.js';

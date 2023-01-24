@@ -1,1 +1,1 @@
-export * as Message from './Message';
+export * as Message from './Message.js';

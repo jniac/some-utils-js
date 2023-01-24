@@ -1,4 +1,4 @@
-import { Observable } from '../observables';
+import { Observable } from '../observables.js';
 export let homepage = '';
 const processPathname = (str) => {
     // First (and absolutely first), remove double slashes.

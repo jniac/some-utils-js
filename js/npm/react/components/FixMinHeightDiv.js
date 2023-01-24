@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParentBounds } from '../hooks';
+import { useParentBounds } from '../hooks.js';
 // NOTE: Not very sure of that component pertinence.
 export const FixMinHeightDiv = React.forwardRef(({ parentSelector, style = {}, debug = false, ...props }, outerRef) => {
     const divRef = React.useRef(null);

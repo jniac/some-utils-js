@@ -1,5 +1,5 @@
-import { deepClone, deepPartialEquals, deepPartialCopy, deepGet } from '../object/clone';
-import { Observable } from './Observable';
+import { deepClone, deepPartialEquals, deepPartialCopy, deepGet } from '../object/clone.js';
+import { Observable } from './Observable.js';
 /**
  * Tricky concept.
  *

@@ -1,2 +1,2 @@
-export * from './Solver';
-export * from './react';
+export * from './Solver.js';
+export * from './react.js';

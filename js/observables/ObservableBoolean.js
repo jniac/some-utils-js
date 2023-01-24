@@ -1,4 +1,4 @@
-import { Observable } from './Observable';
+import { Observable } from './Observable.js';
 export class ObservableBoolean extends Observable {
     isTrue() {
         return this.value;

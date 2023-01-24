@@ -1,4 +1,4 @@
-import { Point } from './Point';
+import { Point } from './Point.js';
 var DegenerateMode;
 (function (DegenerateMode) {
     DegenerateMode[DegenerateMode["Collapse"] = 0] = "Collapse";

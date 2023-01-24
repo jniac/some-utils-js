@@ -1,6 +1,6 @@
 // @ts-ignore (ignore none-existing module, of course if module does not exist this file should not be imported)
 import { useState } from 'react';
-import { useEffects, timer } from '../react';
+import { useEffects, timer } from '../react.js';
 export const DebugCube = ({ rotate = true }) => {
     const [hovered, setHover] = useState(false);
     const { ref } = useEffects(function* (mesh) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { handlePointer, getWindowSize, handleWindow } from '../../../dom/handle-events';
+import { handlePointer, getWindowSize, handleWindow } from '../../../dom/handle-events.js';
 export function usePointerHandle(ref, options) {
     React.useEffect(() => {
         const { destroy } = handlePointer(ref.current, options);

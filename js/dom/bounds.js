@@ -1,6 +1,6 @@
-import { Register } from '../collections';
-import { Rectangle } from '../geom';
-import { computeOffsetBounds, computeLocalBounds } from './utils';
+import { Register } from '../collections.js';
+import { Rectangle } from '../geom.js';
+import { computeOffsetBounds, computeLocalBounds } from './utils.js';
 const allCallbacks = new Register();
 const allOptions = new Map();
 const allBounds = new Map();

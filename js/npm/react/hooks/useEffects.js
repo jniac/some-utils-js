@@ -1,5 +1,5 @@
 import { useEffect as reactUseEffect, useLayoutEffect as reactUseLayoutEffect, useMemo as reactUseMemo } from 'react';
-import { solveDestroyableIntoArray } from './destroyable';
+import { solveDestroyableIntoArray } from './destroyable.js';
 // "mount check" is for checking that the component is still mounted in an async effect. 
 const mountCheck = 'mounted?';
 /**

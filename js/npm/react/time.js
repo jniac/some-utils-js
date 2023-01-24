@@ -1,7 +1,7 @@
 // @ts-ignore (ignore none-existing module, of course if module does not exist this file should not be imported)
 import { useEffect } from 'react';
-import { inout3, inverseLerp } from '../../math';
-import { OrderSet } from '../../collections';
+import { inout3, inverseLerp } from '../../math.js';
+import { OrderSet } from '../../collections.js';
 const requestContinuousAnimationSet = new Set();
 let requestContinuousAnimationCount = 0;
 const requestContinuousAnimation = () => {

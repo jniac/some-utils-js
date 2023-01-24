@@ -1,5 +1,5 @@
-import { Interval } from '../geom';
-import { Observable } from './Observable';
+import { Interval } from '../geom.js';
+import { Observable } from './Observable.js';
 export class ObservableNumber extends Observable {
     #min;
     #max;

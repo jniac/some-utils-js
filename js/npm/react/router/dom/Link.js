@@ -1,6 +1,6 @@
 import React from 'react';
-import { isClick } from '../../../../dom';
-import { RouterContext } from '../Router';
+import { isClick } from '../../../../dom.js';
+import { RouterContext } from '../Router.js';
 export const Link = React.forwardRef(({ to, reload = false, onClick, children, ...props }, ref) => {
     const { baseUrl, go } = React.useContext(RouterContext);
     const _onClick = (event) => {

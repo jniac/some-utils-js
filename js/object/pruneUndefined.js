@@ -1,4 +1,4 @@
-import { isObject } from './isObject';
+import { isObject } from './isObject.js';
 const _deleteUndefined = (target, deep) => {
     for (const key in target) {
         const value = target[key];

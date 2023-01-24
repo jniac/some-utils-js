@@ -1,4 +1,4 @@
-import { Rectangle } from '../geom';
+import { Rectangle } from '../geom.js';
 export const computeLocalBounds = (element, receiver = new Rectangle()) => {
     return receiver.setDimensions(element.offsetLeft + element.clientLeft, element.offsetTop + element.clientTop, element.clientWidth, element.clientHeight);
 };

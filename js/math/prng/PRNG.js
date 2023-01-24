@@ -1,4 +1,4 @@
-import { algorithms } from './algorithms/simple-state';
+import { algorithms } from './algorithms/simple-state.js';
 const { init, next, map } = algorithms['parkmiller-v1'];
 const stringToSeed = (str) => {
     let seed = init(PRNG.seedDefault);

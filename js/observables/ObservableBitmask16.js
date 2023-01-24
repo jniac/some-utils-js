@@ -1,5 +1,5 @@
-import { bitmask } from './utils/bitmask-16';
-import { Observable } from './Observable';
+import { bitmask } from './utils/bitmask-16.js';
+import { Observable } from './Observable.js';
 export class ObservableBitmask16 extends Observable {
     constructor(initialMask) {
         super(bitmask.apply(initialMask, 0));

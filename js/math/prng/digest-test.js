@@ -1,6 +1,6 @@
-import { waitNextFrame } from '../../misc';
-import { digest } from './digest';
-import { createBooleanStore } from './test/test-utils';
+import { waitNextFrame } from '../../misc.js';
+import { digest } from './digest.js';
+import { createBooleanStore } from './test/test-utils.js';
 const createFloatStore = (count = 2 ** 32) => {
     const len = count / 64;
     const buffer = new ArrayBuffer(8);

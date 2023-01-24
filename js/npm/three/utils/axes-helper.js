@@ -1,8 +1,8 @@
 import { ConeGeometry, CylinderGeometry, RawShaderMaterial, Vector3 } from 'three';
 import { mergeBufferGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils';
-import { helperConfig, getColor } from './helper-config';
-import { setVertexColor } from './vertex-color';
-import { getGeometryTransformer } from './transform-geometry';
+import { helperConfig, getColor } from './helper-config.js';
+import { setVertexColor } from './vertex-color.js';
+import { getGeometryTransformer } from './transform-geometry.js';
 /**
  * Create axes geometry: 3 arrow X, Y, Z with vertex colors.
  */

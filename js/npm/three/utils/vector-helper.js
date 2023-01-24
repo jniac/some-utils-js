@@ -1,8 +1,8 @@
 import { ConeGeometry, CylinderGeometry, Quaternion, Vector3 } from 'three';
 import { mergeBufferGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils';
-import { getColor } from './helper-config';
-import { getGeometryTransformer } from './transform-geometry';
-import { setVertexColor } from './vertex-color';
+import { getColor } from './helper-config.js';
+import { getGeometryTransformer } from './transform-geometry.js';
+import { setVertexColor } from './vertex-color.js';
 export const getVectorHelper = ({ radius = .01, radiusScale = 1, } = {}) => {
     radius *= radiusScale;
     const { transform } = getGeometryTransformer();

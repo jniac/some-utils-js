@@ -1,4 +1,4 @@
-import { Observable, ObservableBoolean, ObservableObject } from '../observables';
+import { Observable, ObservableBoolean, ObservableObject } from '../observables.js';
 export const pointerInfo = {
     position: new ObservableObject({ x: 0, y: 0, down: false }),
     get positionDelta() {

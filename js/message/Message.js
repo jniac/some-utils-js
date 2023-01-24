@@ -1,4 +1,4 @@
-import { Register } from '../collections';
+import { Register } from '../collections.js';
 const register = new Register();
 const getTypeTest = (type) => {
     if (type === '*') {

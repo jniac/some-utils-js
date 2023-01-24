@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Observable } from '../../observables';
+import { Observable } from '../../observables.js';
 /**
  * Allow concise className declaration. Eg:
  *

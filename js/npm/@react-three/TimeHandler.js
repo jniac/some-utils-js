@@ -1,6 +1,6 @@
 // @ts-ignore (ignore none-existing module, of course if module does not exist this file should not be imported)
-import { ThreeAnimationFrame } from './ThreeAnimationFrame';
-import { timer, appTimer, cancelContinuousAnimation, requestContinuousAnimation } from '../react';
+import { ThreeAnimationFrame } from './ThreeAnimationFrame.js';
+import { timer, appTimer, cancelContinuousAnimation, requestContinuousAnimation } from '../react.js';
 // Backward compatibility.
 // NOTE: TimeHandler no longer depends on @react-three/fiber and is now exported 
 // from `some-utils/npm/react`. But older projects may import `some-utils/npm/@react-three`

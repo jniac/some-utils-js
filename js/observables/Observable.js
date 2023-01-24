@@ -1,4 +1,4 @@
-import { setValueWithDelay } from './utils/delay';
+import { setValueWithDelay } from './utils/delay.js';
 export const ONCE = Symbol('ONCE');
 class DestroyedObservable {
     static errorMessage = `This observable has been destroyed.\nYou should not use it anymore. "onDestroy" callback helps to prevent any usage after destruction.`;

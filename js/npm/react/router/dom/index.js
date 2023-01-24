@@ -1,2 +1,2 @@
-export * from './DivRoute';
-export * from './Link';
+export * from './DivRoute.js';
+export * from './Link.js';

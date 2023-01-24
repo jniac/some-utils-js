@@ -1,2 +1,2 @@
-export * from './PRNG';
-export * from './digest';
+export * from './PRNG.js';
+export * from './digest.js';

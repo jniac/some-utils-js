@@ -1,5 +1,5 @@
-import { Observable } from './Observable';
-import { ObservableNumber } from './ObservableNumber';
+import { Observable } from './Observable.js';
+import { ObservableNumber } from './ObservableNumber.js';
 const assert = {
     equivalent: (A, B) => {
         const aKeys = Object.keys(A);

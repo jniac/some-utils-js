@@ -1,6 +1,6 @@
 import React from 'react';
-import { Rectangle } from '../../../geom';
-import { useForceUpdate } from './utils';
+import { Rectangle } from '../../../geom.js';
+import { useForceUpdate } from './utils.js';
 export const useWindow = ({ execute = 'immediate', } = {}) => {
     const rectangle = React.useMemo(() => new Rectangle(window.innerWidth, window.innerHeight), []);
     const forceUpdate = useForceUpdate({ waitNextFrame: execute === 'next-frame' });

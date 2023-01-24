@@ -1,4 +1,4 @@
-import { toSvgDocumentString, toSvgString } from './FloatVariable-svg';
+import { toSvgDocumentString, toSvgString } from './FloatVariable-svg.js';
 export class FloatVariable {
     #derivative = null;
     #array;

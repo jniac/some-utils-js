@@ -1,3 +1,3 @@
-export { FixMinHeightDiv } from './FixMinHeightDiv';
-export { Switch } from './Switch';
-export { DivSwitch } from './DivSwitch';
+export { FixMinHeightDiv } from './FixMinHeightDiv.js';
+export { Switch } from './Switch.js';
+export { DivSwitch } from './DivSwitch.js';

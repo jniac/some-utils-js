@@ -1,4 +1,4 @@
-import { isObject, isPlainObjectOrArray } from './isObject';
+import { isObject, isPlainObjectOrArray } from './isObject.js';
 /**
  * NOTE: The source may have less keys than the destination, the result still may
  * be true. This is the meaning of "Partial". Eg:

@@ -1,4 +1,4 @@
-import { Point } from './Point';
+import { Point } from './Point.js';
 export const isCircleParams = (params) => {
     const type = typeof params;
     if (type === 'number') {

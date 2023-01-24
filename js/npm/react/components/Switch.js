@@ -1,7 +1,7 @@
 import { useRef, useMemo, useState } from 'react';
-import { Animation } from '../../../Animation';
-import { Observable } from '../../../observables';
-import { useComplexEffects } from '../hooks';
+import { Animation } from '../../../Animation.js';
+import { Observable } from '../../../observables.js';
+import { useComplexEffects } from '../hooks.js';
 export const Switch = ({ index = 0, items = [], itemProps = {}, transitionDuration = 0.8, debugDisplayAll = false, onTransition, }) => {
     const ref1 = useRef(null);
     const ref2 = useRef(null);

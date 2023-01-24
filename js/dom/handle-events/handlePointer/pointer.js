@@ -1,7 +1,7 @@
-import { Point } from '../../../geom';
-import { handleDrag, isDragListening } from './drag';
-import { handlePinch, isPinchListening } from './pinch';
-import { handlePointerWheel, isWheelListening } from './wheel';
+import { Point } from '../../../geom.js';
+import { handleDrag, isDragListening } from './drag.js';
+import { handlePinch, isPinchListening } from './pinch.js';
+import { handlePointerWheel, isWheelListening } from './wheel.js';
 const isTap = (downEvent, upEvent, maxDuration, maxDistance) => {
     const x = upEvent.x - downEvent.x;
     const y = upEvent.y - downEvent.y;

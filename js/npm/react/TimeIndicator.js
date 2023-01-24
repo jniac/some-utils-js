@@ -1,5 +1,5 @@
-import { appTimer, timer, useEffects } from '../react';
-import { middleModulo } from '../../math';
+import { appTimer, timer, useEffects } from '../react.js';
+import { middleModulo } from '../../math.js';
 export const TimeIndicator = ({ size = 12, margin = 4, alignMode = 'top-right', style = {}, ...props }) => {
     style.position = 'absolute';
     style.zIndex = '1';

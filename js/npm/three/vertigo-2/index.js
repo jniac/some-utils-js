@@ -1,1 +1,1 @@
-export * from './VertigoCamera';
+export * from './VertigoCamera.js';

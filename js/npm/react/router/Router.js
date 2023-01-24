@@ -1,5 +1,5 @@
 import React from 'react';
-import { getPathname, setUrl } from '../../../router';
+import { getPathname, setUrl } from '../../../router.js';
 let downPointerEvent = null;
 window.addEventListener('pointerdown', event => downPointerEvent = event, { capture: true });
 export const RouterContext = React.createContext({

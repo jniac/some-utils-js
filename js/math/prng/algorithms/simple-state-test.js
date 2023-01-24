@@ -1,6 +1,6 @@
-import { waitNextFrame } from '../../../misc';
-import { createBooleanStore } from '../test/test-utils';
-import { algorithms } from './simple-state';
+import { waitNextFrame } from '../../../misc.js';
+import { createBooleanStore } from '../test/test-utils.js';
+import { algorithms } from './simple-state.js';
 class TestCheck {
     AVERAGE_STEP = 1e6;
     average = 0;

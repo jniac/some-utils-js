@@ -1,6 +1,6 @@
 import { useMemo, forwardRef } from 'react';
-import { inverseLerp, inout, in4 } from '../../../math';
-import { Switch } from './Switch';
+import { inverseLerp, inout, in4 } from '../../../math.js';
+import { Switch } from './Switch.js';
 import './DivSwitch.css';
 export const DivSwitch = ({ index = 0, items = [], itemProps = {}, transitionDuration = .8, debugDisplayAll = false, className = '', debug, ...props }) => {
     const mapItems = useMemo(() => {

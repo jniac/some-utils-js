@@ -1,2 +1,2 @@
-export * from './axes-helper';
-export * from './transform-geometry';
+export * from './axes-helper.js';
+export * from './transform-geometry.js';
