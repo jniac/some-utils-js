@@ -1,0 +1,11 @@
+{
+  "name": "some-utils-js",
+  "version": "1.0.0",
+  "description": "some-utils transpiled into regular js",
+  "main": "index.js",
+  "author": "jniac <joseph.merdrignac@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}

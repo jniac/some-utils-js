@@ -1,0 +1,3 @@
+[submodule "some-utils"]
+	path = some-utils
+	url = https://github.com/jniac/some-utils
