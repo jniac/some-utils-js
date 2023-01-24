@@ -4,6 +4,11 @@
 
 For personal usage.
 
+## transpile
+```
+node scripts/transpile.mjs
+```
+
 ## test
 
 html / js (es2022) tests:
